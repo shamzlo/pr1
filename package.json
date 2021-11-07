@@ -1,0 +1,26 @@
+{
+    "name": "practice-2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --mode production",
+      "start": "webpack-dev-server --mode development"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.18.0",
+      "development": "0.0.6",
+      "vue-axios": "^2.1.4",
+      "vue.js": "^0.3.2",
+      "webpack": "^4.25.1"
+    },
+    "devDependencies": {
+      "file-loader": "^6.2.0",
+      "vue-loader": "^15.9.8",
+      "vue-template-compiler": "^2.6.14",
+      "webpack-cli": "^3.3.12",
+      "webpack-dev-server": "^3.11.2"
+    }
+  }
